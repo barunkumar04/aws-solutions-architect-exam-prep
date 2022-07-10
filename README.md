@@ -11,4 +11,8 @@
   - Complaince: Sometimes governments want the data to be local to the country you're deploying the application in. For example, France, data in France may     have to stay in France and therefore you should launch your application in the French region.
   - Proximity to users/customer: Data near to user, reduces latency.
   - Available services in region - Not all region has all services.
-  - Pricing: Pricing varies region to region
+  - Pricing: Pricing varies region to region.
+
+- Region / Avaailablity Zone / Data Center - What stands where?
+ <img width="500" alt="image" align = "center" src="https://user-images.githubusercontent.com/22455492/178155498-34545b34-8908-4a7a-986d-4790308590b6.png">
+
