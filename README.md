@@ -1,5 +1,7 @@
 # Notes
 
+### Getting started
+
 - Amazon started AWS in 2002. First offering was SQS.
 - AWS Global Infrastructure are
   - AWS Regions
@@ -16,3 +18,13 @@
 - Region / Avaailablity Zone / Data Center - What stands where?
  <img width="500" alt="image" align = "center" src="https://user-images.githubusercontent.com/22455492/178155498-34545b34-8908-4a7a-986d-4790308590b6.png">
 
+
+### IAM (Identity and Access Management) AND AWS CLI
+
+- IAM is a Global Service
+- IAM Policy structure: IT consists of
+  - Version
+  - Id
+  - Statment(s)
+    ![image](https://user-images.githubusercontent.com/22455492/178217419-ddadf419-05d7-4329-983f-528dd5dca89d.png)
+    
