@@ -1,6 +1,6 @@
 # AWS Solution Architect exam prepn notes
 
-### Getting started
+## Getting started
 
 - Amazon started AWS in 2002. First offering was SQS.
 - AWS Global Infrastructure are
@@ -19,7 +19,7 @@
  <img width="700" alt="image" align = "center" src="https://user-images.githubusercontent.com/22455492/178155498-34545b34-8908-4a7a-986d-4790308590b6.png">
 
 
-### IAM (Identity and Access Management) AND AWS CLI
+## IAM (Identity and Access Management) and AWS CLI
 
 - IAM is a Global Service
 - IAM Policy structure: IT consists of
@@ -58,3 +58,5 @@
   - Security: MFA + Password Policy
   - Access Key: access AWS using AWS CLI or SDK
   - Audit: IAM Credential Report & IAM Access Advisor 
+
+## EC2 Fundamentals
