@@ -36,9 +36,25 @@
     
 ### Ways to access AWS Account and How are they protected
   - AWS Management console: Protected by password + MFA
-  - AWS CLI: Protected: Protected by access key
+  - AWS CLI: Protected: Protected by access key,Access key is created using AWS Console, unser User section.
+  - AWS CloudShell: An alternative to CLI. Not available in all regions
   - AWS Software Developer Kit (SDK): For code, protected by access key
 
-#### Access Keys
-  - Generated using AWS Console
-  - 
+### [REVISIT] IAM Role for services
+  - Sometime AWS services like EC2, lamda access our account. To let that happen, we need to created role and assign to our services. For example - EC2 Instance Roles, Lambda Functions Roles.
+
+### IAM Best Practices
+  - Do not use a root accounts except when you set up your AWS account.
+  - Assign users to groups and assign permission to groups to make sure.
+  - Create a strong password policy and if possible use MFA.
+  - Use access keys for programetcally access of AWS account
+  - Audit permissions within your accounts, you can use the IAM Credentials Reports, and also IAM access analyzer.
+
+### IAM Summary
+  - Users: mapped to a physical user, has a password for AWS Console
+  - Groups: contains users only
+  - Policies: JSON document that outline permissions for users or groups
+  - Roles: For EC2 instance or AWS Service
+  - Security: MFA + Password Policy
+  - Access Key: access AWS using AWS CLI or SDK
+  - Audit: IAM Credential Report & IAM Access Advisor 
