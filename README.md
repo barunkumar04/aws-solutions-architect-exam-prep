@@ -1,4 +1,4 @@
-# Notes
+# AWS Solution Architect exam prepn notes
 
 ### Getting started
 
@@ -29,4 +29,16 @@
   - And, Condiiton: This is optional and represnet condition on this policy is applied or not
     ![image](https://user-images.githubusercontent.com/22455492/178217419-ddadf419-05d7-4329-983f-528dd5dca89d.png)
     
-###
+### Securing IAM (User/Groups) 
+  - Setup password policy
+  - Setup MFA (Multifactor Factor Authentication)
+    - MFA = Password you know + Security Device you know
+    
+### Ways to access AWS Account and How are they protected
+  - AWS Management console: Protected by password + MFA
+  - AWS CLI: Protected: Protected by access key
+  - AWS Software Developer Kit (SDK): For code, protected by access key
+
+#### Access Keys
+  - Generated using AWS Console
+  - 
