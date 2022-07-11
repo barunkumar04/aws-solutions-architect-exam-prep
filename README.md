@@ -16,7 +16,7 @@
   - Pricing: Pricing varies region to region.
 
 - Region / Avaailablity Zone / Data Center - What stands where?
- <img width="500" alt="image" align = "center" src="https://user-images.githubusercontent.com/22455492/178155498-34545b34-8908-4a7a-986d-4790308590b6.png">
+ <img width="700" alt="image" align = "center" src="https://user-images.githubusercontent.com/22455492/178155498-34545b34-8908-4a7a-986d-4790308590b6.png">
 
 
 ### IAM (Identity and Access Management) AND AWS CLI
@@ -26,5 +26,6 @@
   - Version
   - Id
   - Statment(s)
+  - And, Condiiton: This is optional and represnet condition on this policy is applied or not
     ![image](https://user-images.githubusercontent.com/22455492/178217419-ddadf419-05d7-4329-983f-528dd5dca89d.png)
     
