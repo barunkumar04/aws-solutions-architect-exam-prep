@@ -66,3 +66,7 @@
   - Budget is setup on account level. There are multiple kind of budget which can be setup, Cost budget is recomended one. 
   - Using budget we can set setup level wise alerting. For example, first alert on 80% of budget amount consumption and so on.
   - There is also a provision to define action upon reaching the alert. This is optional.
+
+### EC2 (Elastic Compute Cloud)
+  - Its an Infrastructure as a Service.
+  - 
