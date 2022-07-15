@@ -1,5 +1,3 @@
-# AWS Solution Architect exam prepn notes
-
 ## Getting started
 
 - Amazon started AWS in 2002. First offering was SQS.
