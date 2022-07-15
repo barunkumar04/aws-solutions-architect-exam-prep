@@ -57,4 +57,12 @@
   - Access Key: access AWS using AWS CLI or SDK
   - Audit: IAM Credential Report & IAM Access Advisor 
 
+
 ## EC2 Fundamentals
+
+### AWS Budget setup 
+  - By default IAM user doesn't has permission to setup a AWS Budget. 
+  - Root user must provide the permission to IAM user, if an IAM wants to setup a AWS Budget. Follow Login using Root user -> Account -> Activate from here
+  - Budget is setup on account level. There are multiple kind of budget which can be setup, Cost budget is recomended one. 
+  - Using budget we can set setup level wise alerting. For example, first alert on 80% of budget amount consumption and so on.
+  - There is also a provision to define action upon reaching the alert. This is optional.
